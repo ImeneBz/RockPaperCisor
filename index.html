@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Play</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <button id="start">restart</button>
+        <h1>ROCK, PAPER, CISOR !</h1>
+      
+        <div class="container main">
+            <div class="game">
+              <div class="side">
+                   <h5 class="player">Player 1</h5>
+                   <h5 id="PlusOnePOne" class="hidden"> wins </h5 >
+                <h5 id="designPOne" class="hidden" ></h5>
+                   <p id="pOne">/</p>
+                   <button id="cisor" class="item">✂️</button>
+                   <button id="paper" class="item">📃</button>
+                   <button id="rock" class="item">🪨</button>
+               </div>
+  
+               <div class="side">
+                    <h5 class="player" >Player 2</h5>
+                    <h5 id="PlusOnePTwo" class="hidden" > wins </h5>
+                    <h5 id="designPTwo" class="hidden" ></h5>
+                    <p id="pTwo">/</p>
+               </div>
+            </div>
+        </div>
+
+        <div class="container scores">
+            <h5 id="scorePlayerOne">0</h5>
+     
+            <h5>-</h5>
+            <h5 id="scorePlayerTwo">0</h5>
+        </div>
+  
+  
+    <script src="index.js" charset="utf-8"></script>
+</body>
+</html>
